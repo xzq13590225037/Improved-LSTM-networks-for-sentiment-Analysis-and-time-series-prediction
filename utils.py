@@ -94,3 +94,4 @@ def create_dataset(dataset, look_back=1):
         dataX.append(a)
         dataY.append(dataset[i + look_back])
     return np.array(dataX), np.array(dataY)
+
